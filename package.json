@@ -1,0 +1,20 @@
+{
+  "name": "demo-modell-ta",
+  "version": "1.0.0",
+  "description": "Testautomation to the Demo-model from the SapPress book",
+  "main": "sapPressTA.js",
+  "scripts": {
+    "test": "mocha sapPressTA.js --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://isrdevtools02.isr.local/ISR/demo-modell-ta.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sap/hana-client": "^2.7.23",
+    "chai": "^4.3.0",
+    "mocha": "^8.3.0"
+  }
+}
