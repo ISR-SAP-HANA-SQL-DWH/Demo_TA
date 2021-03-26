@@ -1,0 +1,20 @@
+{
+  "name": "Demo_TA",
+  "version": "1.0.0",
+  "description": "Testautomation for Demo SAP SQL DWH ",
+  "main": "Demo_TA.js",
+  "scripts": {
+    "test": "mocha Demo_TA.js --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ISR-SAP-HANA-SQL-DWH/Demo_TA.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sap/hana-client": "^2.7.23",
+    "chai": "^4.3.0",
+    "mocha": "^8.3.0"
+  }
+}
